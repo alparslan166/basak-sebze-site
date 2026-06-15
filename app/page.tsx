@@ -356,6 +356,23 @@ export default function Home() {
             ))}
           </div>
         </div>
+
+        {/* Güvenli Ödeme Bandı */}
+        <div className="border-t border-slate-100 bg-slate-50">
+          <div className="mx-auto flex w-full max-w-6xl flex-col items-center gap-3 px-4 py-4 sm:flex-row sm:justify-between sm:px-6 lg:px-8">
+            <p className="text-xs font-medium text-slate-500">
+              Güvenli ödeme altyapısı
+            </p>
+            <div className="flex items-center">
+              <img
+                src="/iyzico/logo_band_colored@2x.png"
+                alt="iyzico ile Öde – Visa ve Mastercard desteklenir"
+                height={32}
+                style={{ height: "32px", width: "auto", display: "block" }}
+              />
+            </div>
+          </div>
+        </div>
       </footer>
     </div>
   );
