@@ -112,6 +112,9 @@ export default function Home() {
             Başak Sebze Mobil
           </p>
           <nav className="flex items-center gap-3 text-xs font-medium text-slate-600 sm:gap-5 sm:text-sm">
+            <a href="#hakkimizda" className="transition hover:text-slate-900">
+              Hakkımızda
+            </a>
             <a href="#ozellikler" className="transition hover:text-slate-900">
               Özellikler
             </a>
@@ -175,6 +178,23 @@ export default function Home() {
                 </li>
               ))}
             </ul>
+          </div>
+        </section>
+
+        <section id="hakkimizda" className="mt-16 rounded-3xl border border-emerald-100 bg-white/85 p-6 shadow-sm sm:p-8 lg:p-10">
+          <div className="max-w-3xl">
+            <p className="text-xs font-semibold uppercase tracking-[0.18em] text-emerald-700">
+              Hakkımızda
+            </p>
+            <h2 className="mt-3 text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl">
+              Başak Sebze Mobil Hakkında
+            </h2>
+            <p className="mt-4 text-sm leading-7 text-slate-600 sm:text-base">
+              Başak Sebze, taze ve kaliteli tarım ürünlerini toptan tedarik etme konusunda uzun yıllardır sektörün öncülerindendir. Bayilerimize en taze sebze ve meyveleri güvenilir ve sürdürülebilir bir hizmet anlayışıyla sunmaktayız.
+            </p>
+            <p className="mt-3 text-sm leading-7 text-slate-600 sm:text-base">
+              Siz değerli iş ortaklarımızın sipariş, teslimat ve ödeme süreçlerini kolaylaştırmak ve dijitalleştirmek amacıyla kurduğumuz "Başak Sebze Mobil" uygulamasıyla, en güncel ürün listelerine anında ulaşıp siparişlerinizi hızlıca yönetebilirsiniz.
+            </p>
           </div>
         </section>
 
@@ -336,6 +356,9 @@ export default function Home() {
         <div className="mx-auto flex w-full max-w-6xl flex-col gap-4 px-4 py-6 text-sm text-slate-600 sm:px-6 lg:flex-row lg:items-center lg:justify-between lg:px-8">
           <p>© {new Date().getFullYear()} Başak Sebze</p>
           <div className="flex flex-wrap gap-3">
+            <a href="#hakkimizda" className="transition hover:text-slate-900">
+              Hakkımızda
+            </a>
             <a href="#ozellikler" className="transition hover:text-slate-900">
               Özellikler
             </a>
