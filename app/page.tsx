@@ -707,6 +707,9 @@ export default function Home() {
             <a href="#ekranlar" className="transition hover:text-slate-900">
               Ekranlar
             </a>
+            <a href="/delete-account" className="transition hover:text-emerald-800 font-semibold text-emerald-700">
+              Hesap Silme Talebi
+            </a>
             <a href="#sss" className="transition hover:text-slate-900">
               SSS
             </a>
